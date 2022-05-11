@@ -1,6 +1,9 @@
+body {
+    background-color: #edf2fb;
+}
 .card {
-    background-color: white;
-    border: 1px solid black;
+    background-color: #d7e3fc;
+    border: 0px solid black;
     border-radius: .5rem;
     padding: .5rem;
     max-width: 300px;
@@ -9,6 +12,16 @@
 
 }
 
+button {
+    border: none;
+    background-color: #6694ff;
+    color: white;
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: #c08ceb;
+    color: white;
+}
 .form-group {
     display: flex;
     flex-direction: column;
